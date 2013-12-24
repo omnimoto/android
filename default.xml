@@ -280,14 +280,14 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-4.4" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
+
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="omnirom" revision="android-4.4" />
+  
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="omnirom" revision="android-4.4" />
+  
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-4.4" />
@@ -447,4 +447,15 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
+
+  
+  <!-- Moto -->
+  <project name="omnimoto/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="omni" />
+  <project name="SlimRoms/kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="kk4.4" />
+  <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" remote="github" revision="cm-11.0" />
+  <project path="device/motorola/qcom-common" name="ValidusAOSP/android_device_motorola_qcom-common" remote="github" revision="vaosp" />
+  <project path="hardware/qcom/media-caf" name="LiquidSmooth/android_hardware_qcom_media-caf" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/display-caf" name="LiquidSmooth/android_hardware_qcom_display-caf" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/audio-caf" name="LiquidSmooth/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
+  
 </manifest>
