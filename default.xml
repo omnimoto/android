@@ -450,7 +450,7 @@
 
   
   <!-- Moto -->
-  <project name="omnimoto/device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="omni" />
+  <project name="omnimoto/device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="gzomni" />
   <project name="ValidusAOSP/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="vaosp" />
   <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" remote="github" revision="cm-11.0" />
   <project path="device/motorola/qcom-common" name="v441spare/android_device_motorola_qcom-common" remote="github" revision="du44" />
